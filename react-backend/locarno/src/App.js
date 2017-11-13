@@ -12,7 +12,8 @@ class App extends Component {
   }
   
   componentDidMount(){
-    let connectionUrl = "mongodb://locarnoadmin:locarnoadmin@producthunt@ds249025.mlab.com:49025/locarnodb";
+    //eg - connection string
+    //let connectionUrl = "mongodb://locarnoadmin:locarnoadmin@producthunt@ds249025.mlab.com:49025/locarnodb";
     fetch("/users")
        .then(res => res.json())
        .then(users => this.setState( {   users    } )  )
