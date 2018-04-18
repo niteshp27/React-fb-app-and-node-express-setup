@@ -1,2 +1,2 @@
 # React-fb-app-and-node-express-setup
-Full working version of react, node, express
+Full working version of react, node, express starter kit.
